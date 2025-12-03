@@ -345,7 +345,7 @@
         }
 
         const msgLines = [];
-        msgLines.push(`Error cargando banco de preguntas: ${escapeHtml(err.message)}`);
+        msgLines.push(`Error cargando banco de preguntas: ${escapeHtml(err.message)}, puede cargar otro archivo usando el parámetro URL \`?bank=archivo.json\`.`);
 
         // Detectar casos comunes donde fetch falla (archivo abierto con file:// o problema de red)
         if (location.protocol === 'file:' || /Failed to fetch|Load failed|NetworkError/i.test(err.message)) {

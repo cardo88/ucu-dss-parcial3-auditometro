@@ -1,0 +1,21 @@
+[
+
+  { "text": "El S-SDLC integra seguridad en todas las fases.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "La revisión de código es el touchpoint más efectivo.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "Casos de abuso se aplican sobre requisitos.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "Shift-Left reduce costos.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "DevSecOps integra seguridad solo al final.", "type": "single", "options": ["Verdadero","Falso"], "correct": [1] },
+
+  { "text": "¿Cuál NO es un touchpoint?", "type": "single", "options": ["Revisión de código","Casos de abuso","Penetration testing","CVSS"], "correct": [3] },
+  { "text": "¿Qué es Shift-Left?", "type": "single", "options": ["Seguridad al final","Seguridad desde el inicio","Solo pentesting","Solo pruebas automatizadas"], "correct": [1] },
+  { "text": "¿Cuál pertenece a DevSecOps?", "type": "single", "options": ["TLS manual","SAST en CI/CD","Backups","Logs físicos"], "correct": [1] },
+  { "text": "¿Qué métrica es útil?", "type": "single", "options": ["Líneas de código","Tiempo de parcheo","Número de commits","Tamaño del repo"], "correct": [1] },
+  { "text": "SCA detecta:", "type": "single", "options": ["Lógica de negocio","Librerías vulnerables","Fallas de CPU","Configuraciones de red"], "correct": [1] },
+
+  { "text": "¿En qué fase se ejecutan pruebas de seguridad?", "type": "single", "options": ["Solo producción","Solo QA","Todo el ciclo","Nunca"], "correct": [2] },
+  { "text": "Operaciones de seguridad proveen:", "type": "single", "options": ["Feedback","Hashing","TLS","DAST"], "correct": [0] },
+  { "text": "Touchpoint 2:", "type": "single", "options": ["Revisión de código","Análisis arquitectónico","Casos de abuso","Operaciones"], "correct": [1] },
+  { "text": "¿Qué identifica “funciones que NO deben ocurrir”?", "type": "single", "options": ["Casos de uso","Casos de abuso","Roles","Logs"], "correct": [1] },
+  { "text": "DevSecOps implica:", "type": "single", "options": ["Silos","Responsabilidad compartida","Nada","Solo Dev"], "correct": [1] }
+
+]

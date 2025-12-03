@@ -1,0 +1,15 @@
+[
+
+  { "text": "Spoofing se mitiga con autenticación fuerte.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "Tampering afecta la integridad.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "Repudiation se soluciona con logging robusto.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "Information Disclosure afecta disponibilidad.", "type": "single", "options": ["Verdadero","Falso"], "correct": [1] },
+  { "text": "Elevation of Privilege implica obtener privilegios superiores.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+
+  { "text": "¿Cuál NO pertenece a STRIDE?", "type": "single", "options": ["Spoofing","Integrity Fault","DoS","Tampering"], "correct": [1] },
+  { "text": "¿Dónde se aplica STRIDE?", "type": "single", "options": ["DFDs","Código","Logs","Backups"], "correct": [0] },
+  { "text": "Spoofing es:", "type": "single", "options": ["Alterar datos","Fingir identidad","DoS","Escalar permisos"], "correct": [1] },
+  { "text": "Mitigación principal de Information Disclosure:", "type": "single", "options": ["Cifrado","Throttling","Hashes","Logs"], "correct": [0] },
+  { "text": "Denial of Service afecta:", "type": "single", "options": ["Integridad","Disponibilidad","Confidencialidad","Autenticidad"], "correct": [1] }
+
+]

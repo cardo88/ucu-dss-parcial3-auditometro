@@ -1,0 +1,14 @@
+[
+
+  { "text": "SAST analiza sin ejecutar código.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "SAST detecta fallas de diseño arquitectónico.", "type": "single", "options": ["Verdadero","Falso"], "correct": [1] },
+  { "text": "El análisis sintáctico trata todo como texto plano.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "El análisis lexicográfico reconoce tokens del lenguaje.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "SAST puede detectar buffer overflows.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+
+  { "text": "¿Qué análisis requiere AST?", "type": "single", "options": ["Sintáctico","Lexicográfico","Semántico","Ninguno"], "correct": [2] },
+  { "text": "¿Qué alcance tiene mayor costo computacional?", "type": "single", "options": ["Local","Modular","Global","Todos iguales"], "correct": [2] },
+  { "text": "Una herramienta firme:", "type": "single", "options": ["No tiene falsos negativos","No tiene falsos positivos","Es perfecta","Todas"], "correct": [0] },
+  { "text": "¿Cuál herramienta NO es SAST?", "type": "single", "options": ["SonarQube","SpotBugs","PMD","BurpSuite"], "correct": [3] },
+  { "text": "¿Qué analiza SAST tempranamente?", "type": "single", "options": ["Lógica de negocio","Código fuente","Redes","TLS"], "correct": [1] }
+]

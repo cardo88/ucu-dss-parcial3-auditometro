@@ -1,0 +1,9 @@
+[
+
+  { "text": "Discoverability suele asumirse como 10.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "DREAD promedia cinco métricas.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "Reproducibility indica qué tan fácil es replicar el ataque.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "Exploitability mide la facilidad para recuperar backups.", "type": "single", "options": ["Verdadero","Falso"], "correct": [1] },
+  { "text": "Affected Users tiene en cuenta volumen absoluto de usuarios.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] }
+
+]

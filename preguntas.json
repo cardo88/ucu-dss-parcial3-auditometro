@@ -18,7 +18,6 @@
   { "text": "La seguridad de la información aplica a:", "type": "single", "options": ["Datos digitales", "Datos físicos y digitales", "Solo software", "Solo hardware"], "correct": [1] },
 
   { "text": "--- CWE/SANS TOP 25 ---", "type": "single", "options": ["Ok, acepto el desafío"], "correct": [0] },
-  { "text": "--- Seguridad de la Información ---", "type": "single", "options": ["Ok, acepto el desafío"], "correct": [0] },
   { "text": "Las credenciales hardcodeadas pueden provocar accesos masivos no autorizados.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
   { "text": "Un Integer Overflow puede causar ejecución arbitraria de código.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
   { "text": "CWE-400 refiere a deserialización insegura.", "type": "single", "options": ["Verdadero","Falso"], "correct": [1] },

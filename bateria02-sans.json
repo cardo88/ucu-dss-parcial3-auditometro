@@ -1,0 +1,14 @@
+[
+  { "text": "Las credenciales hardcodeadas pueden provocar accesos masivos no autorizados.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "Un Integer Overflow puede causar ejecución arbitraria de código.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "CWE-400 refiere a deserialización insegura.", "type": "single", "options": ["Verdadero","Falso"], "correct": [1] },
+  { "text": "El consumo de recursos descontrolado puede causar DoS.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "CWE-306 implica falta de autenticación en funciones críticas.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+
+  { "text": "¿Cuál CWE se asocia a credenciales hardcodeadas?", "type": "single", "options": ["CWE-79","CWE-798","CWE-89","CWE-22"], "correct": [1] },
+  { "text": "¿Qué puede provocar un Integer Overflow?", "type": "single", "options": ["Fuga de información","Alteración del control de flujo","Pérdida de logs","Acceso físico"], "correct": [1] },
+  { "text": "Mitigación para CWE-400:", "type": "single", "options": ["TLS","Throttling","Hashing","Obfuscación"], "correct": [1] },
+  { "text": "SSRF explota:", "type": "single", "options": ["Validación de URLs","Hash débil","Buffers","Tokens inseguros"], "correct": [0] },
+  { "text": "CWE-200 implica:", "type": "single", "options": ["Fuga de información","Ejecución remota","DoS","Desbordes"], "correct": [0] }
+
+]

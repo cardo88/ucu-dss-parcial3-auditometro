@@ -1,0 +1,15 @@
+[
+
+  { "text": "CVSS permite personalizar métricas según el ambiente.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "CVSS 4 incluye métricas ambientales, base y de amenaza.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "CVSS mide solo impacto técnico y no considera contexto.", "type": "single", "options": ["Verdadero","Falso"], "correct": [1] },
+  { "text": "AV:N significa que se explota remotamente por red.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "Una vulnerabilidad crítica tiene puntaje mayor a 9.0.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+
+  { "text": "¿Cuál métrica pertenece a CVSS Base?", "type": "single", "options": ["AA","AC","DS","TO"], "correct": [1] },
+  { "text": "Un caso de CVSS que sube en contexto es:", "type": "single", "options": ["Servidor crítico","Panel estático","Página pública","Test unitario"], "correct": [0] },
+  { "text": "CVSS v4 incorpora:", "type": "single", "options": ["Métrica de automatización","Flow analysis","MITRE mapping","DAST scoring"], "correct": [0] },
+  { "text": "Impacto alto en C significa:", "type": "single", "options": ["Divulgación severa","DoS","Falsificación","Pérdida temporal"], "correct": [0] },
+  { "text": "¿Cuál severidad es de 7.0–8.9?", "type": "single", "options": ["Crítica","Media","Alta","Baja"], "correct": [2] }
+
+]

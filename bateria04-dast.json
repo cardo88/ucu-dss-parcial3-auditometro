@@ -1,0 +1,14 @@
+[
+
+  { "text": "DAST necesita ejecutar la aplicación.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "DAST puede modificar el estado de la aplicación.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+  { "text": "DAST detecta fácilmente fallas de autenticación.", "type": "single", "options": ["Verdadero","Falso"], "correct": [1] },
+  { "text": "DAST cubre el código fuente completo.", "type": "single", "options": ["Verdadero","Falso"], "correct": [1] },
+  { "text": "DAST no debería ejecutarse en producción.", "type": "single", "options": ["Verdadero","Falso"], "correct": [0] },
+
+  { "text": "¿Qué técnica pertenece a DAST?", "type": "single", "options": ["Taint analysis","Fuzzing","AST","Grepping"], "correct": [1] },
+  { "text": "¿Qué riesgo tiene ejecutar DAST en producción?", "type": "single", "options": ["DoS","Hash roto","Código corrupto","Autenticación fuerte"], "correct": [0] },
+  { "text": "¿Cuál NO es limitación de DAST?", "type": "single", "options": ["No cubre lógica de negocio","Puede tardar","Puede generar falsos positivos","No puede analizar código sin compilar"], "correct": [3] },
+  { "text": "DAST es:", "type": "single", "options": ["Caja negra","Caja blanca","Caja gris","Ninguna"], "correct": [0] },
+  { "text": "Las pruebas híbridas mezclan:", "type": "single", "options": ["Grepping + keywords","Fuzzing + pruebas específicas","Logs + CVE","TLS + hashing"], "correct": [1] }
+]
