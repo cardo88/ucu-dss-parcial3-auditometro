@@ -180,6 +180,9 @@
     const btnRestart = document.getElementById("btn-restart");
 
     function renderQuestion() {
+      // eliminar explicaciones previas que quedaron en el DOM
+      document.querySelectorAll('.answer-explanation').forEach(el => el.remove());
+
       const q = questions[currentIndex];
       answered = false;
       feedbackEl.textContent = "";
@@ -293,6 +296,8 @@
         renderQuestion();
       } else {
         // Fin del cuestionario
+        // eliminar explicaciones previas al mostrar resultado final
+        document.querySelectorAll('.answer-explanation').forEach(el => el.remove());
         questionCounterEl.textContent = "Cuestionario finalizado";
         questionTypeEl.textContent = "";
         questionTextEl.textContent = "";
